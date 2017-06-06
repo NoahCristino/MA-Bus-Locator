@@ -1,7 +1,7 @@
 import urllib2
 import xml.etree.ElementTree
 print "MA Bus Tracker"
-apikey = "wX9NwuHnZU2ToO7GmGR9uw"
+apikey = "apikeygoeshere"
 lat = raw_input("Latitude: ")#"42.346961"
 lon = raw_input("Longitude: ")#"-71.076640"
 url = "http://realtime.mbta.com/developer/api/v2/stopsbylocation?api_key="+apikey+"&lat="+str(lat)+"&lon="+str(lon)+"&format=xml"
